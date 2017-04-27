@@ -8,7 +8,7 @@
 </br>
 连续多个颜色选择器
 </br>
-### Usage
+Usage
 ====================
 
 Step 1. Add the JitPack repository to your build file
@@ -47,7 +47,7 @@ Step 3. layout
 </com.chm.circle.IntervalColorPicker>
 ```
 说明：IntervalColorPicker没有设置默认尺寸，需要在布局文件设定宽高。
-</br>
+</br></br>
 Step 4. code
 ```Java
 override fun onCreate(savedInstanceState: Bundle?) {
