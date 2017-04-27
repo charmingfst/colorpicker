@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:circle_seekbar="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.chm.myapplication.view.CircleSeekBar
+        android:id="@+id/circle_seekbar"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:thumb="@drawable/thumb"
+        circle_seekbar:progress_background="@android:color/darker_gray"
+        circle_seekbar:progress_front="@android:color/holo_blue_light"
+        circle_seekbar:progress_max="1000"
+        circle_seekbar:progress_text_color="@android:color/holo_green_light"
+        circle_seekbar:progress_text_size="30dp"
+        circle_seekbar:progress_text_stroke_width="4dp"
+        circle_seekbar:progress_width="2dp"
+        circle_seekbar:show_progress_text="true" />
+
+</LinearLayout>

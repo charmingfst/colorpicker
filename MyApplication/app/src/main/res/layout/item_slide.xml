@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chm.myapplication.view.SlideLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="content"
+        android:textSize="25sp"
+        android:background="#d7d7d7"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/menu"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:text="delete"
+        android:textSize="25sp"
+        android:background="#ff0000"
+        android:gravity="center"
+        android:padding="8dp"/>
+</com.chm.myapplication.view.SlideLayout>

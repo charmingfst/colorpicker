@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">My Library</string>
+    <string-array name="colorall">
+        <item>#ff0000</item>
+        <item>#ff4000</item>
+        <item>#ff7f00</item>
+        <item>#ffbf00</item>
+        <item>#ffff00</item>
+        <item>#bfff00</item>
+
+        <item>#7fff00</item>
+        <item>#40ff00</item>
+        <item>#00ff00</item>
+        <item>#00ff40</item>
+        <item>#00ff7f</item>
+        <item>#00ffbf</item>
+
+        <item>#00ffff</item>
+        <item>#00bfff</item>
+        <item>#007fff</item>
+        <item>#0040ff</item>
+        <item>#0000ff</item>
+        <item>#4000ff</item>
+
+        <item>#7f00ff</item>
+        <item>#bf00ff</item>
+        <item>#ff00ff</item>
+        <item>#ff00bf</item>
+        <item>#ff007f</item>
+        <item>#ff0040</item>
+    </string-array>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CircleColorPicker">
+        <attr name="thumb" format="reference"></attr>
+        <attr name="ring_span" format="dimension"/>
+        <attr name="color_type">
+            <enum name="all" value="0" />
+            <enum name="macaroon" value="1" />
+        </attr>
+        <attr name="colors" format="string"/>
+        <attr name="text_color" format="color" />
+        <attr name="text" format="string" />
+        <attr name="text_size" format="dimension"></attr>
+    </declare-styleable>
+    <declare-styleable name="IntervalColorPicker">
+        <attr name="thumbHigh" format="reference"></attr>
+        <attr name="thumbLow" format="reference" />
+        <attr name="ring_breadth" format="dimension"/>
+        <attr name="interval" format="integer"/>
+    </declare-styleable>
+</resources>

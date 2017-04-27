@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:alpha="2"
+    android:viewportHeight="100"
+    android:viewportWidth="100">
+
+    <group
+        android:name= "test"
+        android:pivotX= "50"
+        android:pivotY= "50">
+
+        <path
+            android:name="face"
+            android:fillColor="#ffff00"
+            android:pathData="M50,10
+                          A40,40 0 1 1 50,90
+                          A40,40 0 1 1 50,10" />
+
+        <path
+            android:name="left_eye"
+            android:fillColor="#000000"
+            android:pathData="M30,30
+                          A5,5 0 1 1 40,30
+                          A5,5 0 1 1 30,30" />
+
+        <path
+            android:name="right_eye"
+            android:fillColor="#000000"
+            android:pathData="M60,30
+                          A5,5 0 1 1 70,30
+                          A5,5 0 1 1 60,30" />
+
+        <path
+            android:name="nose"
+            android:pathData="M50,40
+                          C55,55 30,58 55,55"
+            android:strokeColor="#000000"
+            android:strokeWidth="2" />
+
+        <path
+            android:name="mouth"
+            android:pathData="M35,80
+                          Q50,65 65,80"
+            android:strokeColor="#000000"
+            android:strokeWidth="2" />
+
+    </group >
+</vector>

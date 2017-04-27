@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.chm.ason.myapplication.event.TouchEventFather xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="480dp"
+    android:background="#468AD7"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <com.chm.ason.myapplication.event.TouchEventChilds
+        android:gravity="center"
+        android:id="@+id/childs"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="#66ff0000">
+
+        <com.chm.ason.myapplication.event.MyImageView
+            android:scaleType="fitXY"
+            android:background="#66ff0000"
+            android:layout_gravity="center"
+            android:layout_width="200dip"
+            android:layout_height="200dip"
+           />
+
+
+    </com.chm.ason.myapplication.event.TouchEventChilds>
+
+</com.chm.ason.myapplication.event.TouchEventFather>

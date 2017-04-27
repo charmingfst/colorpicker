@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="title">
+    </TextView>
+    <android.support.design.widget.CoordinatorLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/bb"
+            android:layout_width="match_parent"
+            android:layout_height="260dp">
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp">-->
+            <!--</LinearLayout>-->
+
+            <android.support.design.widget.CollapsingToolbarLayout
+                android:id="@+id/aa"
+                app:layout_scrollFlags="scroll"
+                app:contentScrim="#000000"
+                android:layout_width="match_parent"
+                android:layout_height="220dp">
+
+                <TextView
+                    android:text="banner区域"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:background="#987545"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"/>
+
+            </android.support.design.widget.CollapsingToolbarLayout>
+
+            <!--<TextView-->
+            <!--android:gravity="center"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="30dp"-->
+            <!--android:text="悬浮的部分"/>-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                >
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:text="标题一"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"/>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    >
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:text="标题二"/>
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/white"
+                    >
+                </LinearLayout>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:textColor="@android:color/white"
+                    android:gravity="center"
+                    android:text="标题三"/>
+            </LinearLayout>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <com.chm.myapplication.view.MyScroller
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:text="@string/large_text"/>
+                <TextView
+                    android:id="@+id/tt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="标题一"
+                    android:textSize="16sp"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:textColor="@color/colorAccent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:text="@string/large_text"/>
+                <TextView
+                    android:id="@+id/tt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="标题二"
+                    android:textSize="16sp"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:textColor="@color/colorAccent"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/activity_horizontal_margin"
+                    android:text="@string/large_text"/>
+            </LinearLayout>
+
+        </com.chm.myapplication.view.MyScroller>
+
+    </android.support.design.widget.CoordinatorLayout>
+</LinearLayout>

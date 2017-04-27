@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_color_picker"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.chm.myapplication.ColorPickerActivity">
+    <!--<com.chm.circle.CircleColorPicker-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:thumb="@drawable/white_ball"-->
+        <!--app:text="颜色"-->
+        <!--app:text_size="50sp">-->
+    <!--</com.chm.circle.CircleColorPicker>-->
+    <com.chm.circle.IntervalColorPicker
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        app:thumbHigh="@drawable/color_picker_high"
+        app:thumbLow="@drawable/color_picker_low"
+        app:interval="14"
+        app:ring_breadth="10dp">
+    </com.chm.circle.IntervalColorPicker>
+</RelativeLayout>

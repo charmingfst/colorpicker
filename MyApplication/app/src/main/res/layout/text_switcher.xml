@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextSwitcher
+        android:id="@+id/profileSwitcher"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#d7d7d7"
+        android:inAnimation="@anim/push_up_in"
+        android:minHeight="48dp"
+        android:outAnimation="@anim/push_up_out">
+    </TextSwitcher>
+</LinearLayout>

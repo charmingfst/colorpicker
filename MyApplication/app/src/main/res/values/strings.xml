@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="card_string">AppCompatActivity is from the appcompat-v7 library. Principally, this offers a backport of the action bar. Since the native action bar was added in API Level 11, you do not need AppCompatActivity for that. However, current versions of appcompat-v7 also add a limited backport of the Material Design aesthetic, in terms of the action bar and various widgets. There are pros and cons of using appcompat-v7, well beyond the scope of this specific Stack Overflow answer.  作者：sky Shooting 链接：https://www.zhihu.com/question/35709367/answer/93364563 来源：知乎 著作权归作者所有，转载请联系作者获得授权。</string>
+    <string name="next">next</string>
+    <string name="prev">pre</string>
+    <string name="large_text">看过很多\n不错的布局停 /n留效果 /n，代码/n思路差不多，整合了\n一下项\n目里的\n技术点，提出了这个功能。为的是纪录起来，怕哪天自己忘记了
+这个\n功\n能以前看起\n来跟高大上\n，\n以为又是onLayout,\ninvalidate  等\n等去解\n决，\n果断做了伸手党
+最近捡起来看了下，其实发现只\n需要用\n动画就可\n以了。
+这个顶部停留的\nlayout 其实可以写\n在你的list层，不过\n被\n隐\n藏\n了\n，\n当\ni\nt\nems \n滑动到顶部消失不见时\n，\n让它visible就可以了\n。\n\n
+思\n路\n就\n在\nl\ni\ns\nt\nview的onScroll里面\n，\n在\n里面\n控\n制就可以了\n。
+思路分为以下:\n
+先出去当前View与\n下\n一个View的位置：其中overflowView 为停留布局</string>
+    <string-array name="colors">
+        <item name="#ff0000" />
+        <item name="#ff4000" />
+        <item name="#ffbf00" />
+        <item name="#ffff00" />
+        <item name="#bfff00" />
+    </string-array>
+</resources>
