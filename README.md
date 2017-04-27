@@ -1,15 +1,16 @@
 # colorpicker
-颜色选择器
-![单个颜色选择器](http://img.blog.csdn.net/20161130154008214)
+颜色选择器</br>
+![单个颜色选择器](https://github.com/charmingfst/colorpicker/blob/master/images/charge5.gif)
 </br>
 单个颜色选择器
 </br>
-![连续多个颜色选择器](http://img.blog.csdn.net/20161130154008214)
+![连续多个颜色选择器](https://github.com/charmingfst/colorpicker/blob/master/images/charge4.gif)
 </br>
 连续多个颜色选择器
 </br>
 ### Useage
 Step 1. Add the JitPack repository to your build file
+</br>
 ...
 allprojects {
 		repositories {
@@ -18,13 +19,17 @@ allprojects {
 		}
 	}
 ...
+</br>
 Step 2. Add the dependency
+</br>
 ...
 	dependencies {
 	        compile 'com.github.charmingfst:colorpicker:1.0'
 	}
 ...
+</br>
 Step 3. layout
+</br>
 ...
 <com.chm.circle.CircleColorPicker
         android:id="@+id/color_picker"
