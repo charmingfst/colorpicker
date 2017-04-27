@@ -1,12 +1,15 @@
-# colorpicker
-颜色选择器</br>
+colorpicker
+===
+
+颜色选择器
+
 ![单个颜色选择器](https://github.com/charmingfst/colorpicker/blob/master/images/charge5.gif)
-</br>
+
 单个颜色选择器
-</br>
+
 ![连续多个颜色选择器](https://github.com/charmingfst/colorpicker/blob/master/images/charge4.gif)
-</br>
-连续多个颜色选择器
+
+连续多个颜色选择器,并可以反向
 
 
 Usage
