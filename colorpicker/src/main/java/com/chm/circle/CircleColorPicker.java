@@ -91,7 +91,7 @@ public class CircleColorPicker extends View {
     private void init() {
 
         colors = getResources().getStringArray(R.array.colorall);
-        System.out.println("colors:"+colors.length);
+       
         sections = colors.length;
         mPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
         mPaint.setStyle(Paint.Style.STROKE);
@@ -152,8 +152,7 @@ public class CircleColorPicker extends View {
 
         if (isInit) {
             mRectF = new RectF(0 + mThumbWidth / 2, 0 + mThumbWidth / 2, mViewSize - mThumbWidth / 2, mViewSize - mThumbWidth / 2);
-            colors = getResources().getStringArray(R.array.colorall);
-            System.out.println("colorsize;"+colors.length+":"+colors[0]);
+           
             for (int i = 0; i < colors.length; i++) {
                 mPaint.setColor(Color.parseColor(colors[i]));
                 canvas.drawArc(mRectF, i * sectionAngle - 90, sectionAngle + 1, false, mPaint);
