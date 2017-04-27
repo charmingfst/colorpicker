@@ -50,8 +50,9 @@ Step 3. layout
         app:ring_breadth="10dp">
 </com.chm.circle.IntervalColorPicker>
 ```
-说明：IntervalColorPicker没有设置默认尺寸，需要在布局文件设定宽高。
-
+Note:
+- IntervalColorPicker没有设置默认尺寸，需要在布局文件设定宽高。
+- interval表示选择几种连续的颜色，ring_breadth表示圆环宽度。
 
 Step 4. code
 ```Java
