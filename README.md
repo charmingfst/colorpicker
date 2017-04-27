@@ -7,7 +7,8 @@
 ![连续多个颜色选择器](https://github.com/charmingfst/colorpicker/blob/master/images/charge4.gif)
 </br>
 连续多个颜色选择器
-</br>
+
+
 Usage
 ====================
 
@@ -47,7 +48,8 @@ Step 3. layout
 </com.chm.circle.IntervalColorPicker>
 ```
 说明：IntervalColorPicker没有设置默认尺寸，需要在布局文件设定宽高。
-</br></br>
+
+
 Step 4. code
 ```Java
 override fun onCreate(savedInstanceState: Bundle?) {
