@@ -318,6 +318,15 @@ public class IntervalColorPicker extends View {
 
     }
 
+    //设置可选颜色种类
+    public void setColors(String... colors)
+    {
+        this.colors = colors;
+        sections = colors.length;
+        sectionAngle = 360/sections;
+        invalidate();
+    }
+
 
     private boolean isPointOnThumb(float eventX, float eventY) {
         boolean result = false;

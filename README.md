@@ -63,3 +63,9 @@ override fun onCreate(savedInstanceState: Bundle?) {
     }
 ```
 说明：这里使用了kotlin,代码比java简化了不少。
+```Java
+public void setColors(String... colors)
+```
+自定义颜色种类
+
+	
